@@ -6,12 +6,13 @@ body {
 }
 
 #heading {
+  margin-top: 2vw;
+  padding: 2vw 0vw 20px 0vw;
   background-color:	#e10000;
   color: white;
-  padding: 2vw 0vw 20px 0vw;
 }
   #heading h1 {
-    font-size: 250%;
+    font-size: 300%;
   }
   #roll {
     margin-top: 4vw;
@@ -29,4 +30,36 @@ body {
       border-radius: 25px;
       font-family: 'Rubik';
       font-size: larger;
+      cursor: pointer;
     }
+body h2 {
+  margin-top: 4vw;
+  font-size: 200%;
+}
+#placeholder {
+  margin-top: -1vw;
+  font-size: larger;
+}
+#outcomes {
+  margin: 0px auto 0px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  max-width: 75%;
+}
+  .dice {
+    margin: 1vw;
+    padding: 20px 20px 0px 20px;
+    border: solid gray thin;
+    border-radius: 20px;
+    max-width: 100px;
+  }
+    .dice-image {
+      max-width: 100%;
+    }
+    .dice-value {
+      font-size: x-large;
+    }
+#total-value {
+  font-size: 150%;
+}

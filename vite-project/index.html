@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    
     <title>Board Game Dice</title>
   </head>
   <body>
@@ -31,12 +29,11 @@
         <input type="submit" value="🎲 Roll" id="roll-button">
       </form>
     </div>
+    <h2>You've rolled...</h2>
     <div id="outcomes">
-
+      <p id="placeholder">It appears you haven't rolled anything yet.</p>
     </div>
-    <div id="history">
-
-    </div>
+    <p id="total-value"></p>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
